@@ -1,0 +1,92 @@
+* {
+  background-color: black;
+  max-width: 1280px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 200px;
+  margin: 0;
+  width: 82%;
+}
+.header__title {
+  color: white;
+  font-size: 36px;
+}
+
+.header__img {
+  width: 45px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  max-width: 600px;
+  width: 800px;
+  gap: 15px;
+  border-radius: 5px;
+}
+
+.form__name {
+  max-width: 300px;
+  width: 100%;
+  height: 30px;
+  padding-left: 8px;
+  font-size: 15px;
+  color: white;
+}
+.form__number {
+  max-width: 300px;
+  width: 100%;
+  padding-left: 8px;
+  font-size: 15px;
+  color: white;
+}
+
+.form__button {
+  max-width: 200px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+.form__button:hover {
+  color: blue;
+  background-color: white;
+}
+
+.tbody {
+  color: white;
+}
+
+.thead {
+  max-width: 800px;
+  width: 100%;
+}
+.thead__tr {
+  display: flex;
+  gap: 15%;
+}
+
+#contatosTable {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+#conttosTable td {
+  padding: 8px;
+  text-align: left;
+}

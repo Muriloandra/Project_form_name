@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Projeto Nome</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__img" src="./images/contacts.png" alt="agenda" />
+      <h1 class="header__title">Agenda telefonica</h1>
+    </header>
+    <main>
+      <div class="container">
+        <form class="form">
+          <input
+            class="form__name"
+            type="text"
+            id="nome"
+            placeholder="Nome"
+            required
+          />
+          <input
+            class="form__number"
+            id="number"
+            type="tel"
+            pattern="[0-9]{11}"
+            maxlength="11"
+            placeholder="Telefone"
+            required
+          />
+          <button class="form__button" type="submit" onclick="salvarContato()">Salvar contato</button>
+        </form>
+        <table id="contatosTable">
+            <thead class="thead">
+              <tr class="thead__tr">
+                <th>Nome</th>
+                <th>Telefone</th>
+              </tr>
+            </thead>
+            <tbody class="tbody" id="contatosTbody">
+             
+            </tbody>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
